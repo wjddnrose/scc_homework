@@ -15,6 +15,7 @@ for tr in trs:
     artist = tr.select_one('td.info > a.artist.ellipsis').text
     print(rank, title, artist)
 
-##body-content > div.newest-list > div > table > tbody > tr:nth-child(1) > td.number
+#copy-select
+#body-content > div.newest-list > div > table > tbody > tr:nth-child(1) > td.number
 #body-content > div.newest-list > div > table > tbody > tr:nth-child(1) > td.info > a.title.ellipsis
 #body-content > div.newest-list > div > table > tbody > tr:nth-child(1) > td.info > a.artist.ellipsis
